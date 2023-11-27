@@ -1,0 +1,56 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "trab_feeds",
+    "dateExported": "2023-11-27T21:48:17.832Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "887a1a8c-1e3b-45d1-8069-a9d8e744854a",
+            "colId": "161bcefe-4333-4e4f-bf4b-d7ec038bac7c",
+            "containerId": "",
+            "name": "https://cg8r7ecg2e.execute-api.us-east-1.amazonaws.com/prod/feedback",
+            "url": "https://cg8r7ecg2e.execute-api.us-east-1.amazonaws.com/prod/feedback",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2023-11-27T21:10:25.904Z",
+            "modified": "2023-11-27T21:10:25.904Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "7a94cd2b-a289-4023-b628-90699c8a1694",
+            "colId": "161bcefe-4333-4e4f-bf4b-d7ec038bac7c",
+            "containerId": "",
+            "name": "https://cg8r7ecg2e.execute-api.us-east-1.amazonaws.com/prod/feedback/1",
+            "url": "https://cg8r7ecg2e.execute-api.us-east-1.amazonaws.com/prod/feedback/1",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2023-11-27T21:11:01.453Z",
+            "modified": "2023-11-27T21:11:01.453Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "6dcc2777-8bbf-40e6-b098-af494ec4981b",
+            "colId": "161bcefe-4333-4e4f-bf4b-d7ec038bac7c",
+            "containerId": "",
+            "name": "https://cg8r7ecg2e.execute-api.us-east-1.amazonaws.com/prod/feedback",
+            "url": "https://cg8r7ecg2e.execute-api.us-east-1.amazonaws.com/prod/feedback",
+            "method": "POST",
+            "sortNum": 30000,
+            "created": "2023-11-27T21:47:24.312Z",
+            "modified": "2023-11-27T21:47:24.312Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"produto\": \"querry_testee\",\n  \"comentario\": \"Teste_de_query\",\n  \"classificacao\": \"999\"\n}",
+                "form": []
+            },
+            "tests": []
+        }
+    ]
+}
