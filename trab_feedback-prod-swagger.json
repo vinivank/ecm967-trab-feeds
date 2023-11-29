@@ -1,7 +1,7 @@
 {
   "swagger" : "2.0",
   "info" : {
-    "version" : "2023-11-27T21:08:51Z",
+    "version" : "2023-11-29T00:25:31Z",
     "title" : "trab_feedback"
   },
   "host" : "cg8r7ecg2e.execute-api.us-east-1.amazonaws.com",
@@ -24,6 +24,14 @@
       "post" : {
         "consumes" : [ "application/json" ],
         "produces" : [ "application/json" ],
+        "parameters" : [ {
+          "in" : "body",
+          "name" : "FeedModel",
+          "required" : true,
+          "schema" : {
+            "$ref" : "#/definitions/FeedModel"
+          }
+        } ],
         "responses" : {
           "200" : {
             "description" : "200 response",
@@ -111,6 +119,22 @@
     "Empty" : {
       "type" : "object",
       "title" : "Empty Schema"
+    },
+    "FeedModel" : {
+      "type" : "object",
+      "required" : [ "classificacao", "comentario", "produto" ],
+      "properties" : {
+        "produto" : {
+          "type" : "string"
+        },
+        "comentario" : {
+          "type" : "string"
+        },
+        "classificacao" : {
+          "type" : "string"
+        }
+      },
+      "title" : "FeedModel"
     }
   }
 }
